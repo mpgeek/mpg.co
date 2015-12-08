@@ -1,6 +1,6 @@
 # MPG.co
 
-Jekyll source for <multipurposegeek.com>. A Jekyll Creative derivative.
+Jekyll source for [multipurposegeek.com](http://multipurposegeek.com). A Jekyll Creative derivative.
 
 ## Creative Theme for Jekyll
 
