@@ -19,3 +19,9 @@ markdown: kramdown
 
 # Build dir
 destination: _build/html
+
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: :compressed
