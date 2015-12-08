@@ -18,4 +18,4 @@ github_username: mpgeek
 markdown: kramdown
 
 # Build dir
-destination: _build/html 
+destination: _build/html
