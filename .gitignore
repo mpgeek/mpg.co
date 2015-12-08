@@ -1,2 +1,3 @@
 _build/html
 .sass-cache/
+.jekyll-metadata
