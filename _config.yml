@@ -17,6 +17,7 @@ github_username: mpgeek
 
 # Build settings
 markdown: kramdown
+exclude: [scripts]
 
 # Build dir
 destination: _build/html
