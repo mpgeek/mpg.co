@@ -15,6 +15,10 @@ url: "" # the base hostname & protocol for your site
 twitter_username: mpgeek
 github_username: mpgeek
 
+# Dependencies
+gems:
+  - jekyll-sitemap
+
 # Build settings
 markdown: kramdown
 exclude: [scripts]
