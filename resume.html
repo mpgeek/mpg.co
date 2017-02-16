@@ -22,62 +22,88 @@
 			.name {
 				text-transform: uppercase;
 			}
-			
+
 			a:hover {
 				text-decoration: none;
 			}
-			
+
 			.link-github {
 				color: #454545;
 			}
-			
+
 			.link-github:hover {
 				color: black;
 			}
-			
+
 			.link-twitter {
 				color: #33CCFF;
 			}
-			
+
 			.social-link {
 				margin-left: 5px;
 			}
-			
+
 			.social-link:first-child {
 				margin-left: 0;
 			}
-			
+
 			.link-blog {
 				color: rgb(243, 111, 36);
 			}
-			
+
 			.link-blog:hover {
 				color: rgb(211, 97, 32);
 			}
-			
+
 			.summary {
 				font-family: "Pt mono";
 				font-size: 1.2em;
 			}
-			
+
 			.wip {
 				position: absolute;
 				right: 0;
 			}
-			
+
 			.item-detail h3 {
 				margin-top: 0;
 			}
+
+      .img-avatar {
+        border-radius: 7px;
+        margin-top: 1em;
+      }
+
+      .employment-dates {
+        font-style: italic;
+        font-size: 1.8rem;
+        color: #ccc;
+      }
+
+      .edu-dates {
+        font-style: italic;
+        color: #bbb;
+      }
+
+      .inline-title {
+        font-style: bold;
+      }
+
+      .tag {
+        background-color : #67809F;
+        padding: 0.5em 0.5em 5px 0.5em;
+        margin: 0 0 5px 0;
+      }
 		</style>
 	</head>
-	
+
 	<body>
 		<div class="container">
 
 			<div class="col-md-10 col-md-offset-1">
 			<br>
 				<div class="col-md-2">
-        				<img class="media-object img-circle pull-right" 
+        				<img class="media-object img-avatar pull-right"
 							data-src="holder.js/64x64" alt="64x64" src="http:&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;12f23c0a1838116f18a310db6691df1a?s=400"
 							style="width: 150px; height: 150px;">
 				</div>
@@ -112,7 +138,7 @@
 					<hr>
 					<p class="summary">
 						<sup class="fa fa-quote-left"></sup>
-						Over a decade of experience developing client&#x2F;server applications with Open Source tools, including Drupal, with an eye towards user experience, scalability, performance, and multi-API integration. Broad experience with a balanced spectrum of use cases, from one-off brochure sites, to multi-domain applications in the enterprise. Strong communicator, expert technical interpreter and adviser.
+						Software architect with 12+ years of experience designing, implementing, and maintaining enterprise-class software with open source tools; data architecture, implementation, test, and deployment/delivery planning. Particularly interested in scalability and performance in software, along with process automation for standardizing development, deployment, and testing across teams that also implement software engineering best practices. Well-developed troubleshooting and diagnostic workflow skills. Comfortable mentoring and leading small development teams.
 						<sup class="fa fa-quote-right"></sup>
 					</p>
 				</div>
@@ -121,79 +147,87 @@
 					<hr>
 					<div class="col-md-10">
 							<div class="item-detail">
+                <h3>
+                  <span>Developer</span>
+                  <span class="pull-right employment-dates">February 2016 - Present</span>
+                </h3>
+                <h4>
+                  <a target="_blank" href="http:&#x2F;&#x2F;www.phase2technology.com">
+                    Freeflow Digital
+                  </a>
+                </h4>
+                <p class="text-muted">Application architecture and back-end development for custom Drupal applications; multi-platform integrations including Salesforce. Migrations and deployments; workflow management and process automation across multiple environments; semi-continuous delivery to Acquia environments.</p>
+                <p class="text-muted">Technical direction and task management for a small team of developers. Documentation and knowledge sharing/training across the technical team, including best practices in engineering, development, and process. Linux system administration.</p>
+              </div>
+              <ul>
+                <li><span class="inline-title">Key frameworks:</span> Entity API, Migrate, Salesforce, Views, UUID, Features (Drupal), Drush, Node.js/Grunt (GDT), Jenkins, Behat, Simpletest.</li>
+              </ul>
+              <hr>
+              <div class="item-detail">
 								<h3>
-									<span>Senior Developer</span> 
-									<span class="pull-right">( 2013-03-03 - 2015-11-13 )</span>
+									<span>Developer</span>
+									<span class="pull-right employment-dates">March 2013 - November 2015</span>
 								</h3>
 								<h4>
 									<a target="_blank" href="http:&#x2F;&#x2F;www.phase2technology.com">
-										@Phase2 Technology &#x2F; OpenSourcery (Merger) 
+										Phase2 Technology &#x2F; OpenSourcery (Merger)
 									</a>
 								</h4>
-								<p class="text-muted">Full-stack development for enterprise-class web software with Drupal and other Open Source tools in a high-volume production environment. Design and implement performant and scalable custom solutions including publishing workflows, translations, GIS&#x2F;Mapping. Contrib project evaluation, selection, configuration, and extension; custom modules, migrations, deployments, and multiple-API integrations.</p>
+								<p class="text-muted">Full-stack development for enterprise-class web software with Drupal and other open source tools in a high-volume production environment. Design and implement performant and scalable custom solutions including publishing workflows, translations, GIS/Mapping. Contrib project evaluation, selection, configuration, and extension; custom modules, migrations, deployments, and multiple-API integrations.</p>
+                <p class="text-muted">Developer environment standardization with Grunt/Node scripting and virtual machine technologies (Docker, VirtualBox). Continuous integration and automation with Git, Jenkins, Drush, Behat, and PHPUnit</p>
 							</div>
 							<ul>
-								<li>Key frameworks: Migrate, Workbench&#x2F;Workflow, i18n&#x2F;Entity Translate, Leaflet&#x2F;Geocluster, OpenAtrium, Salesforce, Views, Profile2, UUID, Features.</li>
-								<li>Developer environment standardization with Grunt&#x2F;Node scripting and virtual machine technologies.</li>
-								<li>Continuous integration and automation with Git, Jenkins, Drush, Behat, and PHP Unit.</li>
-							</ul>
+                <li><span class="inline-title">Key frameworks:</span> Migrate, Workbench/Workflow, i18n/Entity Translate, Leaflet/Geocluster, OpenAtrium, Salesforce, Views, Profile2, UUID, Features.</li>
+              </ul>
 							<hr>
 							<div class="item-detail">
 								<h3>
-									<span>Developer</span> 
-									<span class="pull-right">( 2012-08-01 - 2013-01-31 )</span>
+									<span>Developer</span>
+									<span class="pull-right employment-dates">August 2012 - February 2013</span>
 								</h3>
 								<h4>
 									<a target="_blank" href="">
-										@OakTree Digital 
+										OakTree Digital
 									</a>
 								</h4>
-								<p class="text-muted">Full-stack Drupal application engineering: back-end development, site building, and theming, including responsive frontends. Contrib project evaluations, selection, configuration, and extension.</p>
+								<p class="text-muted">Full-stack Drupal application engineering: back-end development, site building, and theming, including responsive frontends. Contrib project evaluations, selection, configuration, and extension. Implemented a Single Sign On (SSO) integration with existing network authentication infrastructure.</p>
 							</div>
-							<ul>
-								<li>Implemented a Single Sign On (SSO) integration with existing internal system for an enterprise client.</li>
-							</ul>
 							<hr>
 							<div class="item-detail">
 								<h3>
-									<span>Themer, Developer</span> 
-									<span class="pull-right">( 2005-06-01 - 2012-07-31 )</span>
+									<span>Themer, Developer</span>
+									<span class="pull-right employment-dates">June 2005 - July 2012</span>
 								</h3>
 								<h4>
 									<a target="_blank" href="http:&#x2F;&#x2F;www.pdx.edu">
-										@Portland State University 
+										Portland State University
 									</a>
 								</h4>
-								<p class="text-muted">Web application development, testing, and maintenance, mostly in Drupal. Enterprise site building, theming, development and upgrade management for the University&#39;s main Drupal instance hosting a 200+ multisite.</p>
+								<p class="text-muted">Enterprise site building, theming, development and upgrade management for the University's main Drupal instance hosting a 200+ multisite. Worked on the team that implemented a platform-wide Drupal 6 to Drupal 7 migration for the multisite instance. Drush tooling and custom shell scripting.</p>
 							</div>
-							<ul>
-								<li>Worked on the team that implemented a platform-wide Drupal 6 to Drupal 7 migration for the multisite instance. Drush tooling and custom shell scripting.</li>
-							</ul>
 							<hr>
 					</div>
 				</div>
 				<div class="col-md-12">
 					<h2 class="oswald-font"><span class="fa fa-university"></span>&nbsp; Education</h2>
 					<hr>
-					<div class="col-md-10">			
+					<div class="col-md-10">
 							<div class="item-detail">
+                <h3>Portland State University</h3>
+                <h4>Computer Science, Graduate Studies</h4>
+                <h5 class="edu-dates">3.73 GPA, September 2008 - December 2012</h5>
+              </div>
+              <ul>
+                <li>Graduate Computer Science, Robotics &amp; Automation, Constraint Satisfaction Networks</li>
+              </ul>
+              <hr>
+              <div class="item-detail">
 								<h3>Portland State University</h3>
 								<h4>Electrical &amp; Computer Engineering, Bachelor of Science</h4>
-								<h5>3.23</h5>
-								<h5>2002-01-02 - 2008-06-15</h5>
+								<h5 class="edu-dates">3.23 GPA, January 2002 - June 2008</h5>
 							</div>
 							<ul>
 								<li>Undegraduate Microelectronics, Hardware&#x2F;Software Integration</li>
-							</ul>
-							<hr>
-							<div class="item-detail">
-								<h3>Portland State University</h3>
-								<h4>Computer Science, Graduate Studies</h4>
-								<h5>3.73</h5>
-								<h5>2008-09-05 - 2012-12-12</h5>
-							</div>
-							<ul>
-								<li>Graduate Computer Science, Robotics &amp; Automation, Constraint Satisfaction Networks</li>
 							</ul>
 							<hr>
 					</div>
@@ -203,28 +237,29 @@
 					<hr>
 					<div class="col-md-10">
 							<h4> Languages &amp; APIs </h4>
-							<h5><b>Master</b></h5>
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">HTML5</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">PHP&#x2F;Drupal</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">CSS&#x2F;SASS</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">Javascript&#x2F;jQuery</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">AJAX&#x2F;AHAH</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">LAMP</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">Drush</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">Grunt&#x2F;Node.js</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">Git</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">Behat&#x2F;Mink&#x2F;Cucumber</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">Web Services (REST, JSON)</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">Bash&#x2F;Shell scripting</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">LATEX</span> 
+								<span class="badge tag">HTML5</span>
+								<span class="badge tag">PHP</span>
+                <span class="badge tag">Drupal</span>
+                <span class="badge tag">Wordpress</span>
+								<span class="badge tag">S/CSS</span>
+								<span class="badge tag">Javascript&#x2F;jQuery</span>
+								<span class="badge tag">AJAX</span>
+								<span class="badge tag">LAMP</span>
+								<span class="badge tag">Drush</span>
+								<span class="badge tag">Grunt&#x2F;Node.js</span>
+								<span class="badge tag">Git</span>
+								<span class="badge tag">Behat&#x2F;Mink</span>
+								<span class="badge tag">Web Services (REST, JSON)</span>
+								<span class="badge tag">Bash&#x2F;Shell scripting</span>
+								<span class="badge tag">LATEX</span>
 							<hr>
 							<h4> Concepts </h4>
-							<h5><b>Master</b></h5>
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">Object Oriented Programming (OOP)</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">Test Driven Development (TDD)</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">Continuous Integration (CI)</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">User Experience</span> 
-								<span class="badge" style="background-color : #67809F;padding: 0.5em 0.5em 5px 0.5em;margin: 0 0 5px 0;">Responsive Implementation</span> 
+                <span class="badge tag">Scalability &amp; Performance</span>
+								<span class="badge tag">Object Oriented Programming (OOP)</span>
+								<span class="badge tag">Test Driven Development (TDD)</span>
+								<span class="badge tag">Continuous Integration (CI)</span>
+                <span class="badge tag">Continuous Delivery (CD)</span>
+								<span class="badge tag">User Experience (UX)</span>
 							<hr>
 					</div>
 				</div>
@@ -235,14 +270,11 @@
 							<div class="item-detail">
 								<h3>
 									<a target="_blank" href="http:&#x2F;&#x2F;drupal.org">
-										@Drupal.org 
+										@Drupal.org
 									</a>
 								</h3>
 								<p class="text-muted">Module maintenance and contribution across projects including Drupal core, Google Search Appliance, Leaflet GeoJSON, UUID Features.</p>
-								<h5>2008-01-05 - Present</h5>
-								<h4>
-									<span>Community contributor</span>
-								</h4>
+								<h4><span>Community contributor</span></h4>
 							</div>
 							<ul>
 							</ul>
@@ -266,7 +298,7 @@
 			</div>
 		</div>
 
-		<link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>		
+		<link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
