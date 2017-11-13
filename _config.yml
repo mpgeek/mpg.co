@@ -24,7 +24,7 @@ markdown: kramdown
 exclude: [scripts]
 
 # Build dir
-destination: _build/html
+destination: _build
 
 
 # SASS
