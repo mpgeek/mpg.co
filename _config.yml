@@ -16,7 +16,7 @@ twitter_username: mpgeek
 github_username: mpgeek
 
 # Dependencies
-gems:
+plugins:
   - jekyll-sitemap
 
 # Build settings
