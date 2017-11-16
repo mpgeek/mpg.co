@@ -5,3 +5,16 @@
     text-transform: uppercase;
   }
 }
+
+#about {
+  padding: 100px 40px;
+}
+#about, #resume {
+  border-top: 1px solid #656565;
+  border-bottom: 1px solid #333;
+  background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+}
+
+#portfolio {
+  background-image: url("https://www.transparenttextures.com/patterns/escheresque-dark.png");
+}
