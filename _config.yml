@@ -8,10 +8,16 @@ description: "Eric P site description"
 keywords: "multipurposegeek, mpgeek, portland web developer, portland technology consultant"
 email: multipurposegeek@gmail.com
 email_display: "multipurposegeek (at) gmail.com"
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+#description: > # this means to ignore newlines until "baseurl:"
+#baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "" # the base hostname & protocol for your site
 
+defaults:
+  -
+    values:
+      layout: "default"
+
+# Socials
 twitter_username: mpgeek
 github_username: mpgeek
 
@@ -26,8 +32,16 @@ exclude: [scripts]
 # Build dir
 destination: _build
 
-
 # SASS
 sass:
   sass_dir: _sass
   style: :compressed
+
+# Permalinks don't use dates.
+permalink: /:title/
+
+# Portfolio as a collection.
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
